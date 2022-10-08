@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">20191CSE0215 Exercise 03</string>
+    <string name="enter_first_number">Enter first number</string>
+    <string name="enter_second_number">Enter second number</string>
+    <string name="add">ADD</string>
+    <string name="calculator">CALCULATOR</string>
+</resources>

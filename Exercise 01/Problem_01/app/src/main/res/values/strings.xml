@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">20191CSE0215 Exercise 01</string>
+    <string name="toast_demonstration">TOAST DEMONSTRATION</string>
+    <string name="initiate_toast">INITIATE TOAST</string>
+</resources>

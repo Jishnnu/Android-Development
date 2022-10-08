@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">20191CSE0215 Exercise 02</string>
+    <string name="enter_your_name">Enter Your Name Here</string>
+    <string name="button">INTITIATE TOAST</string>
+    <string name="toast_demonstration">TOAST DEMONSTRATION</string>
+</resources>
