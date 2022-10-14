@@ -4,150 +4,158 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
     tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="246dp"
+        android:layout_height="45dp"
+        android:fontFamily="sans-serif-thin"
         android:text="@string/calculator"
-        android:textSize="34sp"
+        android:textColor="#3949AB"
+        android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.141"
+        app:layout_constraintVertical_bias="0.16"
         tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/num1_215"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="219dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="200dp"
         android:autofillHints=""
         android:ems="10"
         android:hint="@string/enter_first_number"
         android:inputType="textPersonName"
         android:minHeight="48dp"
-        android:textColorHint="#757575"
+        android:textColorHint="#616161"
         app:layout_constraintBottom_toTopOf="@+id/num2_215"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintHorizontal_bias="0.489"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.762"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.55"
         tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/num2_215"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="219dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="296dp"
         android:autofillHints=""
         android:ems="10"
         android:hint="@string/enter_second_number"
         android:inputType="textPersonName"
         android:minHeight="48dp"
-        android:textColorHint="#757575"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:textColorHint="#616161"
         app:layout_constraintEnd_toEndOf="@+id/num1_215"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/num1_215"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.306"
+        app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/add_215"
         android:layout_width="50dp"
         android:layout_height="53dp"
+
+        android:layout_marginTop="76dp"
+        android:background="@drawable/gradient_background"
         android:text="@string/Add"
         android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@+id/div_215"
+        app:layout_constraintBottom_toBottomOf="@+id/sub_215"
         app:layout_constraintEnd_toStartOf="@+id/sub_215"
-        app:layout_constraintHorizontal_bias="0.761"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="1.0" />
-
-    <Button
-        android:id="@+id/div_215"
-        android:layout_width="50dp"
-        android:layout_height="53dp"
-        android:layout_marginBottom="172dp"
-        android:text="@string/Div"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/mod_215"
-        app:layout_constraintHorizontal_bias="0.769"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/mod_215"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintHorizontal_bias="0.138"
+        app:layout_constraintStart_toStartOf="@+id/num2_215"
+        app:layout_constraintTop_toBottomOf="@+id/num2_215" />
 
     <Button
         android:id="@+id/mul_215"
         android:layout_width="50dp"
         android:layout_height="53dp"
+        android:layout_marginTop="76dp"
+        android:background="@drawable/gradient_background"
         android:text="@string/Mul"
         android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@+id/clear_215"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.717"
+        app:layout_constraintHorizontal_bias="0.267"
+        app:layout_constraintStart_toEndOf="@+id/sub_215"
+        app:layout_constraintTop_toBottomOf="@+id/num2_215" />
+
+    <Button
+        android:id="@+id/div_215"
+        android:layout_width="50dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/gradient_background"
+        android:text="@string/Div"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/mod_215"
+        app:layout_constraintEnd_toStartOf="@+id/mod_215"
+        app:layout_constraintHorizontal_bias="0.761"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintTop_toBottomOf="@+id/add_215" />
 
     <Button
         android:id="@+id/mod_215"
         android:layout_width="50dp"
         android:layout_height="53dp"
-        android:layout_marginBottom="172dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/gradient_background"
         android:text="@string/Mod"
         android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/clear_215"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/mul_215" />
+        app:layout_constraintTop_toBottomOf="@+id/sub_215" />
 
     <Button
         android:id="@+id/sub_215"
         android:layout_width="50dp"
         android:layout_height="53dp"
+        android:layout_marginTop="76dp"
+        android:background="@drawable/gradient_background"
         android:text="@string/Sub"
         android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@+id/mod_215"
-        app:layout_constraintEnd_toStartOf="@+id/mul_215"
-        app:layout_constraintHorizontal_bias="0.861"
+        app:layout_constraintBottom_toBottomOf="@+id/mul_215"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintTop_toBottomOf="@+id/num2_215" />
 
     <Button
         android:id="@+id/clear_215"
         android:layout_width="50dp"
         android:layout_height="53dp"
-        android:layout_marginBottom="172dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/gradient_background"
         android:text="@string/c"
         android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.72"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.251"
+        app:layout_constraintStart_toEndOf="@+id/mod_215"
+        app:layout_constraintTop_toBottomOf="@+id/mul_215" />
 
     <TextView
         android:id="@+id/ans_215"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/result"
+        android:textColor="#3949AB"
         android:textSize="20sp"
         android:textStyle="bold"
         android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.825" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.94" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

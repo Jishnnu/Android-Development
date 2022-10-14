@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">20191CSE0215_Student_Registration</string>
+    <string name="age">Age</string>
+    <string name="gender">Gender</string>
+    <string name="enter_age">Enter age</string>
+    <string name="registration_portal">REGISTRATION PORTAL 215</string>
+    <string name="register">REGISTER</string>
+    <string name="name">Name</string>
+    <string name="enter_full_name">Enter full name</string>
+    <string name="course">Course</string>
+    <string name="result">RESULT</string>
+    <string name="m_f_t">M/F/T</string>
+</resources>

@@ -13,6 +13,7 @@ public class MainActivity extends AppCompatActivity {
     Button add_215, sub_215, mul_215, div_215, mod_215, clear_215;
     EditText num1_215, num2_215;
     TextView ans_215;
+    public Double n1_215, n2_215, result_215;
 
     public void show(){
         ans_215.setVisibility(View.VISIBLE);
@@ -20,6 +21,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void hide(){
         ans_215.setVisibility(View.INVISIBLE);
+    }
+
+    public void read(){
+        n1_215 = Double.parseDouble(num1_215.getText().toString());
+        n2_215 = Double.parseDouble(num2_215.getText().toString());
     }
 
     @Override
@@ -36,14 +42,13 @@ public class MainActivity extends AppCompatActivity {
         num2_215 = findViewById(R.id.num2_215);
         ans_215 = findViewById(R.id.ans_215);
 
-
+        //ADDITION
         add_215.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 try{
-                    Double n1_215 = Double.parseDouble(num1_215.getText().toString());
-                    Double n2_215 = Double.parseDouble(num2_215.getText().toString());
-                    Double result_215 = n1_215 + n2_215;
+                    read();
+                    result_215 = n1_215 + n2_215;
                     ans_215.setText("SUM : " + result_215);
                     show();
                 }
@@ -54,13 +59,13 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        //SUBTRACTION
         sub_215.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 try{
-                    Double n1_215 = Double.parseDouble(num1_215.getText().toString());
-                    Double n2_215 = Double.parseDouble(num2_215.getText().toString());
-                    Double result_215 = n1_215 - n2_215;
+                    read();
+                    result_215 = n1_215 - n2_215;
                     ans_215.setText("DIIFERENCE : " + result_215);
                     show();
                 }
@@ -71,13 +76,13 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        //MULTIPLICATION
         mul_215.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 try{
-                    Double n1_215 = Double.parseDouble(num1_215.getText().toString());
-                    Double n2_215 = Double.parseDouble(num2_215.getText().toString());
-                    Double result_215 = n1_215 * n2_215;
+                    read();
+                    result_215 = n1_215 * n2_215;
                     ans_215.setText("PRODUCT : " + result_215);
                     show();
                 }
@@ -88,13 +93,13 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        //DIVISION
         div_215.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 try{
-                    Double n1_215 = Double.parseDouble(num1_215.getText().toString());
-                    Double n2_215 = Double.parseDouble(num2_215.getText().toString());
-                    Double result_215 = n1_215 / n2_215;
+                    read();
+                    result_215 = n1_215 / n2_215;
                     ans_215.setText("QUOTIENT : " + result_215);
                     show();
                 }
@@ -105,13 +110,13 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        //REMAINDER
         mod_215.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 try{
-                    Double n1_215 = Double.parseDouble(num1_215.getText().toString());
-                    Double n2_215 = Double.parseDouble(num2_215.getText().toString());
-                    Double result_215 = n1_215 % n2_215;
+                    read();
+                    result_215 = n1_215 % n2_215;
                     ans_215.setText("REMAINDER : " + result_215);
                     show();
                 }
@@ -122,12 +127,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        //CLEAR
         clear_215.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 hide();
                 num1_215.setText("");
                 num2_215.setText("");
+                num1_215.requestFocus();
             }
         });
     }

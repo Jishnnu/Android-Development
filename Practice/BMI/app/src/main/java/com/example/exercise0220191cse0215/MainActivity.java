@@ -47,7 +47,6 @@ public class MainActivity extends AppCompatActivity {
                 catch (Exception e){
                     Toast.makeText(MainActivity.this, "Invalid Input", Toast.LENGTH_SHORT).show();
                 }
-
             }
         });
     }
