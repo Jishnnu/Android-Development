@@ -1,7 +1,13 @@
 <resources>
     <string name="app_name">Exercise 02 20191CSE0215</string>
     <string name="body_mass_index">BODY MASS INDEX 215</string>
-    <string name="enter_height_in_cm">Enter Height (in cm)</string>
-    <string name="enter_weight_in_kg">Enter Weight (in kg)</string>
+    <string name="enter_height_in_cm">Enter Height</string>
+    <string name="enter_weight_in_kg">Enter Weight (in Kg)</string>
     <string name="calculate">CALCULATE</string>
+    <string name="kg">kg</string>
+    <string name="lb">lb</string>
+    <string name="in">in</string>
+    <string name="cm">cm</string>
+    <string name="m">m</string>
+    <string name="ft" >ft</string>>
 </resources>

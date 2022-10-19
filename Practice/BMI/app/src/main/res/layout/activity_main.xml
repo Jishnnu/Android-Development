@@ -18,12 +18,13 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.202" />
+        app:layout_constraintVertical_bias="0.189" />
 
     <EditText
         android:id="@+id/height_215"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="215dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="52dp"
         android:autofillHints=""
         android:ems="10"
         android:hint="@string/enter_height_in_cm"
@@ -32,16 +33,16 @@
         android:textColorHint="#616161"
         app:layout_constraintBottom_toTopOf="@+id/weight_215"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.789"
-        tools:ignore="TextFields" />
+        app:layout_constraintVertical_bias="0.148"
+        tools:ignore="TextFields,TouchTargetSizeCheck" />
 
     <EditText
         android:id="@+id/weight_215"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="213dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="196dp"
         android:autofillHints=""
         android:ems="10"
         android:hint="@string/enter_weight_in_kg"
@@ -49,11 +50,10 @@
         android:minHeight="48dp"
         android:textColorHint="#616161"
         app:layout_constraintBottom_toTopOf="@+id/button_215"
-        app:layout_constraintEnd_toEndOf="@+id/height_215"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/height_215"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.797"
+        app:layout_constraintVertical_bias="0.041"
         tools:ignore="TextFields" />
 
     <Button
@@ -63,8 +63,59 @@
         android:text="@string/calculate"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/weight_215"
-        app:layout_constraintStart_toStartOf="@+id/weight_215"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.64" />
+
+    <RadioGroup
+        android:id="@+id/heightGroup_215"
+        android:layout_width="215dp"
+        android:layout_height="44dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/weight_215"
+        app:layout_constraintEnd_toEndOf="@+id/height_215"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/height_215"
+        app:layout_constraintTop_toBottomOf="@+id/height_215"
+        app:layout_constraintVertical_bias="0.096">
+
+        <RadioButton
+            android:id="@+id/ft_215"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/ft"
+            android:textColor="#616161"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <RadioButton
+            android:id="@+id/cm_215"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/cm"
+            android:textColor="#616161"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <RadioButton
+            android:id="@+id/in_215"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/in"
+            android:textColor="#616161"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <RadioButton
+            android:id="@+id/m_215"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:checked="true"
+            android:text="@string/m"
+            android:textColor="#616161"
+            tools:ignore="TouchTargetSizeCheck" />
+    </RadioGroup>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

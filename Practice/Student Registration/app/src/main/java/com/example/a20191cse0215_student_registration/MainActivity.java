@@ -10,11 +10,12 @@ import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ListView;
 import android.widget.Spinner;
 import android.widget.TextView;
 
-import java.sql.Time;
-import java.util.Timer;
+import java.util.ArrayList;
+import java.util.Arrays;
 
 public class MainActivity extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
 
@@ -22,17 +23,21 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     AutoCompleteTextView gender_215;
     Spinner course_215;
     Button btn_215;
-    TextView result_215;
+    ListView resultList_215;
+    ArrayList list_215;
+    String names_215[] = {"John"};
     String genderOptions_215[] = {"Male", "Female", "Transgender"};
     String courseOptions_215[] = {"CSE", "CCE", "ISE", "IST", "CIV", "ECE", "EEE", "MEC", "PET", "BCA", "BCOM", "BBA", "MBA", "LLB", "LLM"};
+    ArrayAdapter<String> nameAdapter_215;
+
     public String selectedCourse_215;
 
     public void show(){
-        result_215.setVisibility(View.VISIBLE);
+        resultList_215.setVisibility(View.VISIBLE);
     }
 
     public void hide(){
-        result_215.setVisibility(View.INVISIBLE);
+        resultList_215.setVisibility(View.INVISIBLE);
     }
 
     @SuppressLint("MissingInflatedId")
@@ -45,7 +50,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         course_215 = findViewById(R.id.course_215);
         gender_215 = findViewById(R.id.gender_215);
         btn_215 = findViewById(R.id.button_215);
-        result_215 = findViewById(R.id.result_215);
+        resultList_215 = findViewById(R.id.resultList_215);
 
         name_215.setFocusable(true);
 
@@ -58,10 +63,15 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         courseAdapter_215.setDropDownViewResource(androidx.appcompat.R.layout.support_simple_spinner_dropdown_item);
         course_215.setAdapter(courseAdapter_215);
 
+        list_215 = new ArrayList();
+        nameAdapter_215 = new ArrayAdapter<>(getApplicationContext(), android.R.layout.simple_list_item_1, list_215);
+
         btn_215.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                result_215.setText("Successfully Enrolled " + name_215.getText().toString().toUpperCase() + " into " + selectedCourse_215);
+                list_215.add(name_215.getText().toString().toUpperCase() + " - " + selectedCourse_215);
+                resultList_215.setAdapter(nameAdapter_215);
+                nameAdapter_215.notifyDataSetChanged();
                 show();
             }
         });
