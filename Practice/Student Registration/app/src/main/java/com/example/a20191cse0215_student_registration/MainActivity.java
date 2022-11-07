@@ -45,6 +45,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         name_215 = findViewById(R.id.name_215);
         age_215 = findViewById(R.id.age_215);
         course_215 = findViewById(R.id.course_215);

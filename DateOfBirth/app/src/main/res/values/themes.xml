@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.DateOfBirth" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#D81B60</item>
+        <item name="colorPrimaryVariant">#D81B60</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">#D81B60</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">#CDCBCB</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>

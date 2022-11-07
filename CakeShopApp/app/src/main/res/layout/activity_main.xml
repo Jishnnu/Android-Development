@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="-37dp">
+
+    <TextView
+        android:id="@+id/confirmation_textview_215"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/lobster"
+        android:text="@string/booking_confirmation"
+        android:textColor="#4f1b1d"
+        android:textSize="18sp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/date_215"
+        app:layout_constraintTop_toBottomOf="@+id/date_215" />
+
+    <TextView
+        android:id="@+id/order_215"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/caudex"
+        android:scrollbars="vertical"
+        android:scrollHorizontally="false"
+        android:text="@string/textview1"
+        android:textColor="#4f1b1d"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="@+id/confirmation_textview_215"
+        app:layout_constraintTop_toBottomOf="@+id/confirmation_textview_215" />
+
+    <TextView
+        android:id="@+id/textView4_215"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lobster"
+        android:text="@string/name"
+        android:textColor="#4f1b1d"
+        android:textColorHighlight="#4f1b1d"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/name_215"
+        app:layout_constraintEnd_toEndOf="@+id/textView2_215"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView2_215"
+        app:layout_constraintTop_toTopOf="@+id/name_215"
+        app:layout_constraintVertical_bias="0.538" />
+
+    <TextView
+        android:id="@+id/textView_215"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
+        android:fontFamily="@font/galada"
+        android:text="@string/cake_shop_215"
+        android:textColor="#FF320133"
+        android:textColorHighlight="#4f1b1d"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2_215"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="35dp"
+        android:fontFamily="@font/lobster"
+        android:text="@string/today_s_cake_specials"
+        android:textColor="#4f1b1d"
+        android:textColorHighlight="#4f1b1d"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/chocolate_215"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/name_215" />
+
+    <CheckBox
+        android:id="@+id/marble_215"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/caudex"
+        android:text="@string/marble"
+        android:textColor="#616161"
+        android:textColorHighlight="#4f1b1d"
+        app:layout_constraintBaseline_toBaselineOf="@+id/chocolate_215"
+        app:layout_constraintEnd_toStartOf="@+id/chocolate_215"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView2_215" />
+
+    <CheckBox
+        android:id="@+id/velvet_215"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/caudex"
+        android:text="@string/red_velvet"
+        android:textColor="#616161"
+        android:textColorHighlight="#4f1b1d"
+        app:layout_constraintBaseline_toBaselineOf="@+id/chocolate_215"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.021"
+        app:layout_constraintStart_toStartOf="@+id/cheese_215" />
+
+    <CheckBox
+        android:id="@+id/cheese_215"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/caudex"
+        android:text="@string/cheesecake"
+        android:textColor="#616161"
+        android:textColorHighlight="#4f1b1d"
+        app:layout_constraintBaseline_toBaselineOf="@+id/ice_215"
+        app:layout_constraintEnd_toEndOf="@+id/btn_215"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/btn_215" />
+
+    <CheckBox
+        android:id="@+id/chocolate_215"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        android:fontFamily="@font/caudex"
+        android:text="@string/chocolate"
+        android:textColor="#616161"
+        android:textColorHighlight="#4f1b1d"
+        app:layout_constraintBottom_toBottomOf="@+id/velvet_215"
+        app:layout_constraintEnd_toStartOf="@+id/velvet_215"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/ice_215"
+        app:layout_constraintTop_toBottomOf="@+id/textView2_215"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <CheckBox
+        android:id="@+id/ice_215"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="12dp"
+        android:fontFamily="@font/caudex"
+        android:text="@string/ice_cream"
+        android:textColor="#616161"
+        android:textColorHighlight="#4f1b1d"
+        app:layout_constraintBottom_toBottomOf="@+id/cheese_215"
+        app:layout_constraintEnd_toStartOf="@+id/cheese_215"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chocolate_215"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <CheckBox
+        android:id="@+id/cookie_215"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/caudex"
+        android:text="@string/cookie"
+        android:textColor="#616161"
+        android:textColorHighlight="#4f1b1d"
+        app:layout_constraintBaseline_toBaselineOf="@+id/ice_215"
+        app:layout_constraintEnd_toStartOf="@+id/ice_215"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/marble_215" />
+
+    <DatePicker
+        android:id="@+id/date_215"
+        android:layout_width="0dp"
+        android:layout_height="149dp"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="124dp"
+        android:layout_marginEnd="39dp"
+        android:headerBackground="#320133"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btn_215"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/marble_215"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView1_215"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:fontFamily="@font/lobster"
+        android:text="@string/date_of_delivery"
+        android:textColor="#4f1b1d"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/date_215"
+        app:layout_constraintEnd_toEndOf="@+id/date_215"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/date_215"
+        app:layout_constraintTop_toBottomOf="@+id/textView2_215"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/btn_215"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="40dp"
+        android:fontFamily="@font/roboto"
+        android:text="@string/place_order"
+        app:layout_constraintBottom_toBottomOf="@+id/date_215"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/date_215"
+        app:layout_constraintTop_toTopOf="@+id/date_215"
+        app:layout_constraintVertical_bias="0.148" />
+
+    <Button
+        android:id="@+id/reset_215"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="40dp"
+        android:fontFamily="@font/roboto"
+        android:text="@string/reset"
+        app:layout_constraintBottom_toBottomOf="@+id/date_215"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.678"
+        app:layout_constraintStart_toEndOf="@+id/date_215"
+        app:layout_constraintTop_toTopOf="@+id/date_215"
+        app:layout_constraintVertical_bias="0.623" />
+
+    <EditText
+        android:id="@+id/name_215"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="48dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:fontFamily="@font/caudex"
+        android:hint="@string/enter_your_name"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColor="#000000"
+        android:textColorHighlight="#4f1b1d"
+        android:textColorHint="#616161"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textView4_215"
+        app:layout_constraintTop_toBottomOf="@+id/textView_215"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
