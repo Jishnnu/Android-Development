@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    android:overScrollMode="always"
+    android:scrollbarStyle="insideOverlay"
+    android:scrollbars="vertical"
+    android:verticalScrollbarPosition="right"
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="91dp">
+
+    <TextView
+        android:id="@+id/textView1_215"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:text="@string/hackathon_215"
+        android:textColor="#4F1B1D"
+        android:textSize="27sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2_215"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:fontFamily="@font/catamaran"
+        android:text="@string/mobile_application_development_group"
+        android:textColor="#4F1B1D"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView1_215" />
+
+    <EditText
+        android:id="@+id/name_215"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="65dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:fontFamily="@font/catamaran"
+        android:hint="@string/enter_your_full_name"
+        android:inputType="textPersonName"
+        android:textColorHint="#9F9B9B"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3_215" />
+
+    <TextView
+        android:id="@+id/textView3_215"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
+        android:fontFamily="@font/catamaran"
+        android:text="@string/name"
+        android:textColor="#4F1B1D"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/name_215"
+        app:layout_constraintTop_toBottomOf="@+id/textView2_215" />
+
+    <Spinner
+        android:id="@+id/spinner_215"
+        android:layout_width="wrap_content"
+        android:layout_height="22dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="22dp"
+        android:gravity="left"
+        app:layout_constraintBottom_toTopOf="@+id/register_215"
+        app:layout_constraintStart_toStartOf="@+id/textView6_215"
+        app:layout_constraintTop_toTopOf="@+id/textView6_215"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/textView6_215"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:fontFamily="@font/catamaran"
+        android:text="@string/university"
+        android:textColor="#4F1B1D"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/email_215"
+        app:layout_constraintTop_toBottomOf="@+id/email_215" />
+
+    <TextView
+        android:id="@+id/textView5_215"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="37dp"
+        android:fontFamily="@font/catamaran"
+        android:text="@string/email"
+        android:textColor="#4F1B1D"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/email_215"
+        app:layout_constraintTop_toBottomOf="@+id/dept_215" />
+
+    <TextView
+        android:id="@+id/textView4_215"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:fontFamily="@font/catamaran"
+        android:text="@string/department"
+        android:textColor="#4F1B1D"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/dept_215"
+        app:layout_constraintTop_toBottomOf="@+id/name_215" />
+
+    <Button
+        android:id="@+id/register_215"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:text="@string/register"
+        android:textColor="#FFFFFF"
+        app:cornerRadius="3dp"
+        app:layout_constraintStart_toStartOf="@+id/spinner_215"
+        app:layout_constraintTop_toBottomOf="@+id/textView6_215" />
+
+    <EditText
+        android:id="@+id/dept_215"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="65dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:fontFamily="@font/catamaran"
+        android:hint="@string/enter_your_department"
+        android:inputType="textPersonName"
+        android:textColorHint="#9F9B9B"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4_215" />
+
+    <EditText
+        android:id="@+id/email_215"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="65dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:fontFamily="@font/catamaran"
+        android:hint="@string/enter_your_unviersity_email_id"
+        android:inputType="textPersonName"
+        android:textColorHint="#9F9B9B"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5_215"
+        tools:ignore="TextFields" />
+
+    <TextView
+        android:id="@+id/output_215"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:fontFamily="@font/catamaran"
+        android:text="@string/textview"
+        android:textColor="#4F1B1D"
+        android:textSize="11.5sp"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        app:layout_constraintStart_toEndOf="@+id/register_215"
+        app:layout_constraintTop_toTopOf="@+id/register_215" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

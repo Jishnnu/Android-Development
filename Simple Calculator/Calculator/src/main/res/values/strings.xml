@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="c">c</string>
+    <string name="Mod">%</string>
+    <string name="Div">/</string>
+    <string name="Mul">*</string>
+    <string name="calculator">CALCULATOR 215</string>
+    <string name="enter_first_number">Enter First Number</string>
+    <string name="enter_second_number">Enter Second Number</string>
+    <string name="Add">+</string>
+    <string name="Sub">-</string>
+    <string name="result">RESULT :</string>
+</resources>

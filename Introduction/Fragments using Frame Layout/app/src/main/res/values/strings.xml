@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Fragment Frame Layout</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="health_first_215">Health First 215</string>
+    <string name="pick_a_fruit">Pick a fruit to know its benefits</string>
+</resources>
