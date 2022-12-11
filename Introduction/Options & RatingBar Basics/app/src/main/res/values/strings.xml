@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Options &amp; Rating Bar Basics</string>
+    <string name="item_1">Item 1</string>
+    <string name="item_2">Item 2</string>
+    <string name="sub_item">Sub Item</string>
+    <string name="ratings_215">RATINGS 215</string>
+    <string name="your_rating">How would you rate us ?</string>
+    <string name="submit">SUBMIT</string>
+</resources>

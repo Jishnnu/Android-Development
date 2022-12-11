@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Midterm_215</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="laptop_booking_confirmation">Laptop booking is Confirmed \n<b>Coming Soon</b></string>
+    <string name="_628"><b>$ 628</b></string>
+    <string name="_2399"><b>$ 2399</b></string>
+    <string name="macbook">Macbook</string>
+    <string name="microsoft">Microsoft</string>
+    <string name="acer">Acer Swift</string>
+    <string name="lenovo">Lenovo</string>
+    <string name="dell_xps">Dell XPS</string>
+    <string name="laptop_215"><b>Deals of the Day</b></string>
+    <string name="proceed">PROCEED</string>
+    <string name="_1399"><b>$ 1399</b></string>
+    <string name="_600"><b>$ 600</b></string>
+    <string name="_965"><b>$ 965</b></string>
+    <string name="enter_10_digit_number">Enter 10 digit number</string>
+    <string name="contact"> Contact</string>
+    <string name="personal_dossier_215">Personal Dossier</string>
+    <string name="enter_full_name">Enter full name</string>
+    <string name="name"> Name</string>
+    <string name="submit">SUBMIT</string>
+    <string name="confirm">CONFIRM</string>
+    <string name="booking_invoice_215">Booking Invoice</string>
+</resources>

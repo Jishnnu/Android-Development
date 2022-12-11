@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/history_215"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="38dp"
+        android:fontFamily="@font/catamaran"
+        android:text="@string/last_played"
+        android:textColor="#FFFFFF"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.12" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.88" />
+
+    <FrameLayout
+        android:id="@+id/frame_215"
+        android:layout_width="0dp"
+        android:layout_height="278dp"
+        android:layout_marginStart="62dp"
+        android:layout_marginEnd="62dp"
+        app:layout_constraintBottom_toTopOf="@+id/play_215"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/catamaran"
+        android:text="@string/music_player_215"
+        android:textColor="#dfdee1"
+        android:textSize="27sp"
+        app:layout_constraintBottom_toTopOf="@+id/frame_215"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/play_215"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="94dp"
+        android:contentDescription="@string/play"
+        android:onClick="musicPlayer_215"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/stop_215"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/pause_215"
+        app:srcCompat="@drawable/play_icon" />
+
+    <ImageView
+        android:id="@+id/next_215"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/next"
+        android:onClick="musicPlayer_215"
+        app:layout_constraintBottom_toBottomOf="@+id/stop_215"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/stop_215"
+        app:srcCompat="@drawable/fast_forward_icon" />
+
+    <ImageView
+        android:id="@+id/stop_215"
+        android:layout_width="60dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:contentDescription="@string/stop"
+        android:onClick="musicPlayer_215"
+        app:layout_constraintBottom_toBottomOf="@+id/play_215"
+        app:layout_constraintEnd_toStartOf="@+id/next_215"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/play_215"
+        app:layout_constraintTop_toTopOf="@+id/play_215"
+        app:srcCompat="@drawable/stop_icon" />
+
+    <ImageView
+        android:id="@+id/pause_215"
+        android:layout_width="60dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:contentDescription="@string/pause"
+        android:onClick="musicPlayer_215"
+        app:layout_constraintBottom_toBottomOf="@+id/play_215"
+        app:layout_constraintEnd_toStartOf="@+id/play_215"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/prev_215"
+        app:layout_constraintTop_toTopOf="@+id/play_215"
+        app:srcCompat="@drawable/pause_icon" />
+
+    <ImageView
+        android:id="@+id/prev_215"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/previous"
+        android:onClick="musicPlayer_215"
+        app:layout_constraintBottom_toBottomOf="@+id/pause_215"
+        app:layout_constraintEnd_toStartOf="@+id/pause_215"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/rewind_icon" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

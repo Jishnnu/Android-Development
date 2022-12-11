@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/laptop_215"
+    tools:context=".MainActivity2">
+
+    <EditText
+        android:id="@+id/contact_215"
+        android:layout_width="215dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="228dp"
+        android:ems="10"
+        android:fontFamily="@font/catamaran"
+        android:hint="@string/enter_10_digit_number"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColor="@color/maroon_215"
+        android:textColorHint="#AFACAC"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:autofillHints="" />
+
+    <TextView
+        android:id="@+id/contactLabel_215"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:text="@string/contact"
+        app:layout_constraintBottom_toTopOf="@+id/contact_215"
+        app:layout_constraintStart_toStartOf="@+id/contact_215" />
+
+    <TextView
+        android:id="@+id/titleActivitiy2_215"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="47dp"
+        android:fontFamily="@font/catamaran"
+        android:text="@string/personal_dossier_215"
+        android:textColor="@color/maroon_215"
+        android:textSize="27sp"
+        app:layout_constraintBottom_toTopOf="@+id/nameLabel_215"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/name_215"
+        android:layout_width="215dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="29dp"
+        android:ems="10"
+        android:fontFamily="@font/catamaran"
+        android:hint="@string/enter_full_name"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColor="@color/maroon_215"
+        android:textColorHint="#AFACAC"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/contactLabel_215"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:autofillHints="" />
+
+    <TextView
+        android:id="@+id/nameLabel_215"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:text="@string/name"
+        app:layout_constraintBottom_toTopOf="@+id/name_215"
+        app:layout_constraintStart_toStartOf="@+id/name_215" />
+
+    <Button
+        android:id="@+id/submit_215"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:text="@string/submit"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/contact_215" />
+</androidx.constraintlayout.widget.ConstraintLayout>

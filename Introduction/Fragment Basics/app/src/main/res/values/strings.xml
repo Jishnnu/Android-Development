@@ -2,9 +2,15 @@
     <string name="app_name">Fragment Basics</string>
     <string name="colour_switch_215">Colour Switch 215</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="pick_a_colour">Pick a colour</string>
     <string name="black">BLACK</string>
     <string name="blue">BLUE</string>
     <string name="red">RED</string>
+    <string name="todo">TODO</string>
+    <string name="ratings_215">RATINGS 215</string>
+    <string name="your_rating">How would you rate us ?</string>
+    <string name="submit">SUBMIT</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="health_first_215">Health First 215</string>
+    <string name="pick_a_fruit">Pick a fruit to know its benefits</string>
 </resources>

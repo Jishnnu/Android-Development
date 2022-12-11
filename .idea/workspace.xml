@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ec57429d-c29f-4675-b41f-0426690c6cb4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Midterm_215/app/src/debug/ic_launcher-playstore.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Midterm_215/app/src/debug/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Midterm_215/app/src/debug/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Midterm_215/app/src/debug/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Midterm_215/app/src/debug/res/mipmap-hdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Midterm_215/app/src/debug/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Midterm_215/app/src/debug/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Midterm_215/app/src/debug/res/mipmap-mdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Midterm_215/app/src/debug/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Midterm_215/app/src/debug/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Midterm_215/app/src/debug/res/mipmap-xhdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Midterm_215/app/src/debug/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Midterm_215/app/src/debug/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Midterm_215/app/src/debug/res/mipmap-xxhdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Midterm_215/app/src/debug/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Midterm_215/app/src/debug/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Midterm_215/app/src/debug/res/mipmap-xxxhdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Midterm_215/app/src/debug/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Midterm_215/app/src/debug/res/values/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Midterm_215/app/src/main/res/font/catamaran.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Midterm_215/app/src/main/res/values/font_certs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Midterm_215/app/src/main/res/values/preloaded_fonts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MusicApp/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MusicApp/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MusicApp/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MusicApp/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MusicApp/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MusicApp/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MusicApp/app/src/debug/ic_launcher-playstore.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MusicApp/app/src/debug/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MusicApp/app/src/debug/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MusicApp/app/src/debug/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MusicApp/app/src/debug/res/mipmap-hdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MusicApp/app/src/debug/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MusicApp/app/src/debug/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MusicApp/app/src/debug/res/mipmap-mdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MusicApp/app/src/debug/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MusicApp/app/src/debug/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MusicApp/app/src/debug/res/mipmap-xhdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MusicApp/app/src/debug/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MusicApp/app/src/debug/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MusicApp/app/src/debug/res/mipmap-xxhdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MusicApp/app/src/debug/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MusicApp/app/src/debug/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MusicApp/app/src/debug/res/mipmap-xxxhdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MusicApp/app/src/debug/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MusicApp/app/src/debug/res/values/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MusicApp/app/src/main/java/com/example/musicapp/Fragment_Eminem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MusicApp/app/src/main/java/com/example/musicapp/Fragment_Middle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MusicApp/app/src/main/java/com/example/musicapp/Fragment_Wolf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MusicApp/app/src/main/res/font/catamaran.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MusicApp/app/src/main/res/layout/fragment__eminem.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MusicApp/app/src/main/res/layout/fragment__middle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MusicApp/app/src/main/res/layout/fragment__wolf.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MusicApp/app/src/main/res/values/font_certs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MusicApp/app/src/main/res/values/preloaded_fonts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cake Ordering App/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Cake Ordering App/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Introduction/Fragment Basics/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Introduction/Fragment Basics/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Introduction/Fragment Basics/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Introduction/Fragment Basics/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Introduction/Fragment Basics/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Introduction/Fragment Basics/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Introduction/Fragment Basics/app/src/main/java/com/example/fragmentbasics/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Introduction/Fragment Basics/app/src/main/java/com/example/fragmentbasics/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Introduction/Fragment Basics/app/src/main/res/values-night/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Introduction/Fragment Basics/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Introduction/Fragment Basics/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Introduction/Fragment Basics/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Introduction/Fragment Basics/app/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Introduction/Fragment Basics/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Introduction/Fragment Basics/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Introduction/Fragment Basics/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Introduction/Fragments using Frame Layout/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Introduction/Fragments using Frame Layout/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Introduction/Fragments using Frame Layout/app/src/main/res/layout/fragment__blueberry.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Introduction/Fragments using Frame Layout/app/src/main/res/layout/fragment__blueberry.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2IjRm7MtWseKD744Og5Ei6I7Pcr" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="cidr.known.project.marker" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ec57429d-c29f-4675-b41f-0426690c6cb4" name="Changes" comment="" />
+      <created>1670693161857</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1670693161857</updated>
+    </task>
+    <servers />
+  </component>
+</project>

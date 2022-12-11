@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Media Player</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="bruhnville">BruhnVille</string>
+    <string name="middle">middle</string>
+    <string name="eminem">eminem</string>
+    <string name="wolf">wolf</string>
+    <string name="music_player_215">MUSIC PLAYER 215</string>
+    <string name="play">PLAY</string>
+    <string name="stop">STOP</string>
+    <string name="pause">PAUSE</string>
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+</resources>

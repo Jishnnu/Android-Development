@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/item1_215"
+        android:title="@string/item_1"
+        app:showAsAction="never"
+        />
+    <item android:id="@+id/item2_215"
+        android:title="@string/item_2"
+        app:showAsAction="never">
+        <menu>
+            <item android:id="@+id/subitem_215"
+                android:title="@string/sub_item"
+                app:showAsAction="never"
+                />
+        </menu>
+    </item>
+</menu>

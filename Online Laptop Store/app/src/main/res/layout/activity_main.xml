@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/laptop_215"
+    tools:context=".MainActivity">
+
+    <CheckBox
+        android:id="@+id/lenovo_215"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="104dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="19dp"
+        android:fontFamily="@font/catamaran"
+        android:text="@string/lenovo"
+        android:textColor="@color/maroon_215"
+        app:layout_constraintBottom_toTopOf="@+id/mac_215"
+        app:layout_constraintEnd_toStartOf="@+id/circleImageView6"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circleImageView6"
+        android:layout_width="0dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="19dp"
+        android:src="@drawable/lenovo_215"
+        app:layout_constraintBottom_toTopOf="@+id/mac_215"
+        app:layout_constraintEnd_toStartOf="@+id/lenovo_price_215"
+        app:layout_constraintStart_toEndOf="@+id/lenovo_215"
+        app:layout_constraintTop_toBottomOf="@+id/titleActivitiy1_215" />
+
+    <TextView
+        android:id="@+id/lenovo_price_215"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="109dp"
+        android:fontFamily="@font/catamaran"
+        android:text="@string/_628"
+        android:textColor="@color/maroon_215"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/circleImageView6"
+        app:layout_constraintTop_toTopOf="@+id/circleImageView6" />
+
+    <CheckBox
+        android:id="@+id/dell_215"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="@font/catamaran"
+        android:text="@string/dell_xps"
+        android:textColor="@color/maroon_215"
+        app:layout_constraintEnd_toStartOf="@+id/circleImageView3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mac_215" />
+
+    <TextView
+        android:id="@+id/dell_price_215"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="105dp"
+        android:layout_marginBottom="14dp"
+        android:fontFamily="@font/catamaran"
+        android:text="@string/_1399"
+        android:textColor="@color/maroon_215"
+        app:layout_constraintBottom_toBottomOf="@+id/circleImageView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/circleImageView3" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circleImageView3"
+        android:layout_width="0dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="51dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="51dp"
+        android:src="@drawable/dell_215"
+        app:layout_constraintBottom_toBottomOf="@+id/ms_price_215"
+        app:layout_constraintEnd_toStartOf="@+id/dell_price_215"
+        app:layout_constraintStart_toEndOf="@+id/dell_215"
+        app:layout_constraintTop_toTopOf="@+id/mac_price_215" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circleImageView2"
+        android:layout_width="0dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="50dp"
+        android:src="@drawable/mac_215"
+        app:layout_constraintBottom_toBottomOf="@+id/dell_price_215"
+        app:layout_constraintEnd_toStartOf="@+id/mac_price_215"
+        app:layout_constraintStart_toEndOf="@+id/mac_215"
+        app:layout_constraintTop_toTopOf="@+id/lenovo_price_215" />
+
+    <TextView
+        android:id="@+id/mac_price_215"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="103dp"
+        android:layout_marginBottom="341dp"
+        android:fontFamily="@font/catamaran"
+        android:text="@string/_2399"
+        android:textColor="@color/maroon_215"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/circleImageView2" />
+
+    <CheckBox
+        android:id="@+id/mac_215"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="104dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/catamaran"
+        android:text="@string/macbook"
+        android:textColor="@color/maroon_215"
+        app:layout_constraintBottom_toTopOf="@+id/circleImageView3"
+        app:layout_constraintEnd_toStartOf="@+id/circleImageView2"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <CheckBox
+        android:id="@+id/acer_215"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="104dp"
+        android:layout_marginEnd="12dp"
+        android:fontFamily="@font/catamaran"
+        android:text="@string/acer"
+        android:textColor="@color/maroon_215"
+        app:layout_constraintBottom_toBottomOf="@+id/circleImageView5"
+        app:layout_constraintEnd_toStartOf="@+id/circleImageView5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/acer_price_215"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="109dp"
+        android:layout_marginBottom="14dp"
+        android:fontFamily="@font/catamaran"
+        android:text="@string/_965"
+        android:textColor="@color/maroon_215"
+        app:layout_constraintBottom_toBottomOf="@+id/circleImageView5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/circleImageView5" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circleImageView5"
+        android:layout_width="0dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="54dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="52dp"
+        android:src="@drawable/acer_215"
+        app:layout_constraintBottom_toTopOf="@+id/btn_215"
+        app:layout_constraintEnd_toStartOf="@+id/acer_price_215"
+        app:layout_constraintStart_toEndOf="@+id/acer_215"
+        app:layout_constraintTop_toTopOf="@+id/ms_price_215" />
+
+    <CheckBox
+        android:id="@+id/ms_215"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="104dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="@font/catamaran"
+        android:text="@string/microsoft"
+        android:textColor="@color/maroon_215"
+        app:layout_constraintBottom_toBottomOf="@+id/circleImageView4"
+        app:layout_constraintEnd_toStartOf="@+id/circleImageView4"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circleImageView4"
+        android:layout_width="0dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="119dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="119dp"
+        android:src="@drawable/microsoft_215"
+        app:layout_constraintBottom_toTopOf="@+id/btn_215"
+        app:layout_constraintEnd_toStartOf="@+id/ms_price_215"
+        app:layout_constraintStart_toEndOf="@+id/ms_215"
+        app:layout_constraintTop_toTopOf="@+id/mac_price_215" />
+
+    <TextView
+        android:id="@+id/ms_price_215"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="102dp"
+        android:fontFamily="@font/catamaran"
+        android:text="@string/_600"
+        android:textColor="@color/maroon_215"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/circleImageView4"
+        app:layout_constraintTop_toTopOf="@+id/circleImageView4" />
+
+    <TextView
+        android:id="@+id/titleActivitiy1_215"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="28dp"
+        android:fontFamily="@font/catamaran"
+        android:text="@string/laptop_215"
+        android:textColor="@color/maroon_215"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/lenovo_215"
+        app:layout_constraintStart_toStartOf="@+id/lenovo_215" />
+
+    <Button
+        android:id="@+id/btn_215"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="25dp"
+        android:text="@string/proceed"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/circleImageView5" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

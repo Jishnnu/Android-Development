@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Midterm_215" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#4F1B1D</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">#4F1B1D</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#64495C</item>
+        <item name="colorSecondaryVariant">#B080A2</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/collapsedTitleGravity</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>
