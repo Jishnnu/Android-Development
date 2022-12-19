@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Datanase Basics</string>
+    <string name="register_215">REGISTER 215</string>
+    <string name="enter_username">Enter email ID</string>
+    <string name="category"> Category</string>
+    <string name="username"> Username</string>
+    <string name="enter_password">Enter password</string>
+    <string name="password"> Password</string>
+    <string name="register">REGISTER</string>
+    <string name="admin_215">PROFILE 215</string>
+    <string name="update">UPDATE</string>
+    <string name="delete">DELETE</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="updateButton">UPDATE</string>
+    <string name="user_id">USER ID :</string>
+    <string name="usernameCaps">USERNAME :</string>
+    <string name="passwordCaps">PASSWORD :</string>
+    <string name="enter_id">Enter ID</string>
+    <string name="ok">OK</string>
+    <string name="delete_215">DELETE 215</string>
+    <string name="update_215">UPDATE 215</string>
+    <string name="login">LOGIN</string>
+    <string name="login_215">LOGIN 215</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="re_enter_the_password">Re-enter the password</string>
+    <string name="sign_up"><b>Sign Up ?</b></string>
+    <string name="user_id_Label">User ID</string>
+    <string name="eg_10xx">Eg: 10XX</string>
+</resources>
