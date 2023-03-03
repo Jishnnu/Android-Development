@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Endterm_Attendance_App_215</string>
+    <string name="gender">Gender</string>
+    <string name="enter_student_roll_number">Enter student roll number</string>
+    <string name="attendance_percentage">Attendance Percentage</string>
+    <string name="name">Name</string>
+    <string name="enter_student_full_name">Enter student full name</string>
+    <string name="out_of_100">Out of 100</string>
+    <string name="roll_number">Roll Number</string>
+    <string name="student_attendance_register_215">STUDENT ATTENDANCE REGISTER 215</string>
+    <string name="submit">SUBMIT DATA</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="student_list">BROWSE FUNCTIONS</string>
+    <string name="students_under_np">STUDENTS UNDER NP</string>
+    <string name="male_students_list">MALE STUDENTS LIST</string>
+    <string name="students_with_less_than_25_attendance">STUDENTS WITH LESS THAN 25% ATTENDANCE</string>
+    <string name="complete_student_list">COMPLETE STUDENT LIST</string>
+    <string name="image_215">Image 215</string>
+</resources>

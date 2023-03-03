@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background_215"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/genderTextView_215"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/catamaran"
+        android:text="@string/gender"
+        android:textColor="@color/maroon_215"
+        app:layout_constraintStart_toStartOf="@+id/attendance_215"
+        app:layout_constraintTop_toBottomOf="@+id/attendance_215" />
+
+    <EditText
+        android:id="@+id/roll_215"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:ems="10"
+        android:fontFamily="@font/catamaran"
+        android:hint="@string/enter_student_roll_number"
+        android:inputType="textPersonName"
+        android:textColor="@color/maroon_215"
+        android:textColorHint="#8A8484"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rollTextView_215"
+        tools:ignore="TextContrastCheck,TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/attendanceTextView_215"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:fontFamily="@font/catamaran"
+        android:text="@string/attendance_percentage"
+        android:textColor="@color/maroon_215"
+        app:layout_constraintStart_toStartOf="@+id/attendance_215"
+        app:layout_constraintTop_toBottomOf="@+id/roll_215" />
+
+    <TextView
+        android:id="@+id/nameTextView_215"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="192dp"
+        android:fontFamily="@font/catamaran"
+        android:text="@string/name"
+        android:textColor="@color/maroon_215"
+        app:layout_constraintStart_toStartOf="@+id/name_215"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/name_215"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:ems="10"
+        android:fontFamily="@font/catamaran"
+        android:hint="@string/enter_student_full_name"
+        android:inputType="textPersonName"
+        android:textColor="@color/maroon_215"
+        android:textColorHint="#8A8484"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nameTextView_215"
+        tools:ignore="TextContrastCheck,TextContrastCheck,TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/attendance_215"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:ems="10"
+        android:fontFamily="@font/catamaran"
+        android:hint="@string/out_of_100"
+        android:inputType="textPersonName"
+        android:textColor="@color/maroon_215"
+        android:textColorHint="#8A8484"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/attendanceTextView_215"
+        tools:ignore="TextContrastCheck,TextContrastCheck,TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/rollTextView_215"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:fontFamily="@font/catamaran"
+        android:text="@string/roll_number"
+        android:textColor="@color/maroon_215"
+        app:layout_constraintStart_toStartOf="@+id/roll_215"
+        app:layout_constraintTop_toBottomOf="@+id/name_215" />
+
+    <TextView
+        android:id="@+id/mainActivityTitle_215"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="84dp"
+        android:fontFamily="@font/catamaran"
+        android:text="@string/student_attendance_register_215"
+        android:textColor="@color/maroon_215"
+        android:textSize="21sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/submit_215"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/submit"
+        android:textColor="@color/white"
+        app:layout_constraintBaseline_toBaselineOf="@+id/next_215"
+        app:layout_constraintEnd_toStartOf="@+id/next_215"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/next_215"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="68dp"
+        android:text="@string/student_list"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/submit_215" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup_215"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="@+id/genderTextView_215"
+        app:layout_constraintTop_toBottomOf="@+id/genderTextView_215">
+
+        <RadioButton
+            android:id="@+id/male_215"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/male"
+            android:textColor="@color/maroon_215" />
+
+        <RadioButton
+            android:id="@+id/female_215"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/female"
+            android:textColor="@color/maroon_215" />
+    </RadioGroup>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

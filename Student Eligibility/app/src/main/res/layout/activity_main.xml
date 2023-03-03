@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/displayBtn_215"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="33dp"
+        android:text="@string/display"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/submitBtn_215" />
+
+    <EditText
+        android:id="@+id/chem_215"
+        android:layout_width="99dp"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:ems="10"
+        android:fontFamily="@font/catamaran"
+        android:hint="@string/out_of_100"
+        android:inputType="textPersonName"
+        android:textColor="@color/maroon_215"
+        android:textColorHint="#989494"
+        app:layout_constraintEnd_toStartOf="@+id/maths_215"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/phy_215"
+        app:layout_constraintTop_toBottomOf="@+id/textView4_215"
+        tools:ignore="DuplicateSpeakableTextCheck,DuplicateSpeakableTextCheck" />
+
+    <TextView
+        android:id="@+id/textView4_215"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:fontFamily="@font/catamaran"
+        android:text="@string/chemistry"
+        android:textColor="@color/maroon_215"
+        app:layout_constraintStart_toStartOf="@+id/chem_215"
+        app:layout_constraintTop_toBottomOf="@+id/titleTextView_" />
+
+    <TextView
+        android:id="@+id/textView5_215"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/catamaran"
+        android:text="@string/mathematics"
+        android:textColor="@color/maroon_215"
+        app:layout_constraintBottom_toTopOf="@+id/maths_215"
+        app:layout_constraintStart_toStartOf="@+id/maths_215" />
+
+    <EditText
+        android:id="@+id/maths_215"
+        android:layout_width="99dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="230dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:fontFamily="@font/catamaran"
+        android:hint="@string/out_of_100"
+        android:inputType="textPersonName"
+        android:textColor="@color/maroon_215"
+        android:textColorHint="#989494"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/chem_215" />
+
+    <TextView
+        android:id="@+id/textView3_215"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:fontFamily="@font/catamaran"
+        android:text="@string/physics"
+        android:textColor="@color/maroon_215"
+        app:layout_constraintStart_toStartOf="@+id/phy_215"
+        app:layout_constraintTop_toBottomOf="@+id/titleTextView_" />
+
+    <EditText
+        android:id="@+id/phy_215"
+        android:layout_width="99dp"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:ems="10"
+        android:fontFamily="@font/catamaran"
+        android:hint="@string/out_of_100"
+        android:inputType="textPersonName"
+        android:textColor="@color/maroon_215"
+        android:textColorHint="#989494"
+        app:layout_constraintEnd_toStartOf="@+id/chem_215"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3_215" />
+
+    <TextView
+        android:id="@+id/titleTextView_"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="19dp"
+        android:fontFamily="@font/catamaran"
+        android:text="@string/marks_scored_in_pcm"
+        android:textColor="@color/maroon_215"
+        android:textSize="21sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView5_215"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/titleTextView_215"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:fontFamily="@font/catamaran"
+        android:text="@string/presidency_admission_215"
+        android:textColor="@color/maroon_215"
+        android:textSize="27sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/submitBtn_215"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="33dp"
+        android:text="@string/submit"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/displayBtn_215"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/reg_id_215"
+        android:layout_width="252dp"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:ems="10"
+        android:fontFamily="@font/catamaran"
+        android:hint="@string/eg_20191abcxxxx"
+        android:inputType="textPersonName"
+        android:textColor="@color/maroon_215"
+        android:textColorHint="#989494"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_215" />
+
+    <TextView
+        android:id="@+id/textView_215"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="41dp"
+        android:fontFamily="@font/catamaran"
+        android:text="@string/registration_id"
+        app:layout_constraintStart_toStartOf="@+id/titleTextView_215"
+        app:layout_constraintTop_toBottomOf="@+id/titleTextView_215"
+        android:textColor="@color/maroon_215" />
+
+    <EditText
+        android:id="@+id/name_215"
+        android:layout_width="252dp"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:ems="10"
+        android:fontFamily="@font/catamaran"
+        android:hint="@string/enter_full_name"
+        android:inputType="textPersonName"
+        android:textColor="@color/maroon_215"
+        android:textColorHint="#989494"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2_215" />
+
+    <TextView
+        android:id="@+id/textView2_215"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="23dp"
+        android:fontFamily="@font/catamaran"
+        android:text="@string/student_name"
+        android:textColor="@color/maroon_215"
+        app:layout_constraintEnd_toEndOf="@+id/textView_215"
+        app:layout_constraintStart_toStartOf="@+id/textView_215"
+        app:layout_constraintTop_toBottomOf="@+id/reg_id_215" />
+
+    <Spinner
+        android:id="@+id/state_215"
+        android:layout_width="252dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="27dp"
+        app:layout_constraintBottom_toTopOf="@+id/submitBtn_215"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView6_215"
+        app:layout_constraintVertical_bias="0.153"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textView6_215"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="@font/catamaran"
+        android:text="@string/state"
+        android:textColor="@color/maroon_215"
+        app:layout_constraintEnd_toEndOf="@+id/phy_215"
+        app:layout_constraintTop_toBottomOf="@+id/phy_215" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

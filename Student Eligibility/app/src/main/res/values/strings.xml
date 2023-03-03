@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">CA-2_215</string>
+    <string name="out_of_100">Out of 100</string>
+    <string name="state">State</string>
+    <string name="student_name">Student Name</string>
+    <string name="eg_20191abcxxxx">Eg: 20191ABCXXXX</string>
+    <string name="registration_id">Registration ID</string>
+    <string name="enter_full_name">Enter full name</string>
+    <string name="submit">SUBMIT</string>
+    <string name="presidency_admission_215">PRESIDENCY ADMISSION 215</string>
+    <string name="marks_scored_in_pcm">Marks Scored in PCM</string>
+    <string name="physics">Physics</string>
+    <string name="mathematics">Mathematics</string>
+    <string name="chemistry">Chemistry</string>
+    <string name="display">DISPLAY</string>
+</resources>

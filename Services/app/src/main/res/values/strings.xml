@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Services</string>
+    <string name="enter_phone_number">Enter phone number</string>
+    <string name="call">CALL</string>
+    <string name="sms">SMS</string>
+    <string name="phone_services">PHONE SERVICES</string>
+</resources>
